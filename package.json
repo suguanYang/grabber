@@ -1,0 +1,21 @@
+{
+    "name": "grabber",
+    "version": "1.0.0",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "build": "node build.js"
+    },
+    "dependencies": {
+        "debug": "npm:debug@4.4.0",
+        "fs-extra": "npm:fs-extra@11.2.0",
+        "jsdom": "npm:jsdom@25.0.1",
+        "piscina": "npm:piscina@4.8.0",
+        "puppeteer": "npm:puppeteer@23.11.1"
+    },
+    "devDependencies": {
+        "esbuild": "npm:esbuild@0.24.2",
+        "@types/fs-extra": "npm:@types/fs-extra@11.0.4",
+        "@types/jsdom": "npm:@types/jsdom@21.1.7"
+    }
+}
